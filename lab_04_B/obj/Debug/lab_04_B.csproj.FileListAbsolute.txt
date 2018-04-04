@@ -1,0 +1,50 @@
+\\pitagoras\profile2_pracownicy\adam.zielonka\documents\visual studio 2015\Projects\lab_04_B\lab_04_B\bin\Debug\lab_04_B.exe.config
+\\pitagoras\profile2_pracownicy\adam.zielonka\documents\visual studio 2015\Projects\lab_04_B\lab_04_B\bin\Debug\lab_04_B.exe
+\\pitagoras\profile2_pracownicy\adam.zielonka\documents\visual studio 2015\Projects\lab_04_B\lab_04_B\bin\Debug\lab_04_B.pdb
+\\pitagoras\profile2_pracownicy\adam.zielonka\documents\visual studio 2015\Projects\lab_04_B\lab_04_B\obj\Debug\lab_04_B.csprojResolveAssemblyReference.cache
+\\pitagoras\profile2_pracownicy\adam.zielonka\documents\visual studio 2015\Projects\lab_04_B\lab_04_B\obj\Debug\lab_04_B.MinTCPanel.resources
+\\pitagoras\profile2_pracownicy\adam.zielonka\documents\visual studio 2015\Projects\lab_04_B\lab_04_B\obj\Debug\lab_04_B.Properties.Resources.resources
+\\pitagoras\profile2_pracownicy\adam.zielonka\documents\visual studio 2015\Projects\lab_04_B\lab_04_B\obj\Debug\lab_04_B.csproj.GenerateResource.Cache
+\\pitagoras\profile2_pracownicy\adam.zielonka\documents\visual studio 2015\Projects\lab_04_B\lab_04_B\obj\Debug\lab_04_B.exe
+\\pitagoras\profile2_pracownicy\adam.zielonka\documents\visual studio 2015\Projects\lab_04_B\lab_04_B\obj\Debug\lab_04_B.pdb
+\\pitagoras\profile2_pracownicy\adam.zielonka\documents\visual studio 2015\Projects\lab_04_B\lab_04_B\obj\Debug\lab_04_B.Form1.resources
+\\Pitagoras\Profile2_Studenci\patryk.marcinek\Pulpit\lab_04_B\lab_04_B\bin\Debug\lab_04_B.exe.config
+\\Pitagoras\Profile2_Studenci\patryk.marcinek\Pulpit\lab_04_B\lab_04_B\obj\Debug\lab_04_B.exe
+\\Pitagoras\Profile2_Studenci\patryk.marcinek\Pulpit\lab_04_B\lab_04_B\obj\Debug\lab_04_B.pdb
+\\Pitagoras\Profile2_Studenci\patryk.marcinek\Pulpit\lab_04_B\lab_04_B\bin\Debug\lab_04_B.exe
+\\Pitagoras\Profile2_Studenci\patryk.marcinek\Pulpit\lab_04_B\lab_04_B\bin\Debug\lab_04_B.pdb
+\\Pitagoras\Profile2_Studenci\patryk.marcinek\Pulpit\lab_04_B\lab_04_B\obj\Debug\lab_04_B.csprojResolveAssemblyReference.cache
+\\Pitagoras\Profile2_Studenci\patryk.marcinek\Pulpit\lab_04_B\lab_04_B\obj\Debug\lab_04_B.Form1.resources
+\\Pitagoras\Profile2_Studenci\patryk.marcinek\Pulpit\lab_04_B\lab_04_B\obj\Debug\lab_04_B.MinTCPanel.resources
+\\Pitagoras\Profile2_Studenci\patryk.marcinek\Pulpit\lab_04_B\lab_04_B\obj\Debug\lab_04_B.Properties.Resources.resources
+\\Pitagoras\Profile2_Studenci\patryk.marcinek\Pulpit\lab_04_B\lab_04_B\obj\Debug\lab_04_B.csproj.GenerateResource.Cache
+C:\Users\Patryk\Documents\lab_04_B\lab_04_B\bin\Debug\lab_04_B.exe.config
+C:\Users\Patryk\Documents\lab_04_B\lab_04_B\obj\Debug\lab_04_B.exe
+C:\Users\Patryk\Documents\lab_04_B\lab_04_B\obj\Debug\lab_04_B.pdb
+C:\Users\Patryk\Documents\lab_04_B\lab_04_B\bin\Debug\lab_04_B.exe
+C:\Users\Patryk\Documents\lab_04_B\lab_04_B\bin\Debug\lab_04_B.pdb
+C:\Users\Patryk\Documents\lab_04_B\lab_04_B\obj\Debug\lab_04_B.Form1.resources
+C:\Users\Patryk\Documents\lab_04_B\lab_04_B\obj\Debug\lab_04_B.MinTCPanel.resources
+C:\Users\Patryk\Documents\lab_04_B\lab_04_B\obj\Debug\lab_04_B.Properties.Resources.resources
+C:\Users\Patryk\Documents\lab_04_B\lab_04_B\obj\Debug\lab_04_B.csproj.GenerateResource.Cache
+C:\Users\Patryk\Documents\lab_04_B\lab_04_B\obj\Debug\lab_04_B.csprojResolveAssemblyReference.cache
+E:\programowanie\InValidComander\lab_04_B\bin\Debug\lab_04_B.exe.config
+E:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.exe
+E:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.pdb
+E:\programowanie\InValidComander\lab_04_B\bin\Debug\lab_04_B.exe
+E:\programowanie\InValidComander\lab_04_B\bin\Debug\lab_04_B.pdb
+E:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.csprojResolveAssemblyReference.cache
+E:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.Form1.resources
+E:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.MinTCPanel.resources
+E:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.Properties.Resources.resources
+E:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.csproj.GenerateResource.Cache
+F:\programowanie\InValidComander\lab_04_B\bin\Debug\lab_04_B.exe.config
+F:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.exe
+F:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.pdb
+F:\programowanie\InValidComander\lab_04_B\bin\Debug\lab_04_B.exe
+F:\programowanie\InValidComander\lab_04_B\bin\Debug\lab_04_B.pdb
+F:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.csprojResolveAssemblyReference.cache
+F:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.Form1.resources
+F:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.MinTCPanel.resources
+F:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.Properties.Resources.resources
+F:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.csproj.GenerateResource.Cache

@@ -1,0 +1,9 @@
+F:\programowanie\InValidComander\lab_04_B\bin\Release\lab_04_B.exe.config
+F:\programowanie\InValidComander\lab_04_B\bin\Release\lab_04_B.exe
+F:\programowanie\InValidComander\lab_04_B\bin\Release\lab_04_B.pdb
+F:\programowanie\InValidComander\lab_04_B\obj\Release\lab_04_B.Form1.resources
+F:\programowanie\InValidComander\lab_04_B\obj\Release\lab_04_B.MinTCPanel.resources
+F:\programowanie\InValidComander\lab_04_B\obj\Release\lab_04_B.Properties.Resources.resources
+F:\programowanie\InValidComander\lab_04_B\obj\Release\lab_04_B.csproj.GenerateResource.Cache
+F:\programowanie\InValidComander\lab_04_B\obj\Release\lab_04_B.exe
+F:\programowanie\InValidComander\lab_04_B\obj\Release\lab_04_B.pdb
