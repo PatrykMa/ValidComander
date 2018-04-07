@@ -29,8 +29,8 @@ namespace lab_04_B
             iForm.GetRightPanel().Text_BoxPathEnterKey += MinTCPanel1_TextBoxPathKeyPress;
             iForm.GetRightPanel().ListBox_ItemDoubleClick += MinTCPanel1_ListBox_ItemDoubleClick;
             iForm.GetLeftPanel().ListBox_ItemDoubleClick += MinTCPanel1_ListBox_ItemDoubleClick;
-            iForm.GetLeftPanel().ListBox_ItemClick += MinTCPanel1_ListBox_ItemClick;
-            iForm.GetRightPanel().ListBox_ItemClick += MinTCPanel1_ListBox_ItemClick;
+            //iForm.GetLeftPanel().ListBox_ItemClick += MinTCPanel1_ListBox_ItemClick;
+            //iForm.GetRightPanel().ListBox_ItemClick += MinTCPanel1_ListBox_ItemClick;
 
             iForm.MoveButtonClick += Form_ButtonMove;
             iForm.DeleteButtonClick += Form_ButtonDelateClick;
@@ -95,18 +95,7 @@ namespace lab_04_B
             }
 
         }
-        private void MinTCPanel1_ListBox_ItemClick(MinTCPanel obj)
-        {
-            if(!Object.ReferenceEquals(obj, iForm.GetLeftPanel()))
-            {
-                iForm.GetLeftPanel().ListBoxClearSelected();
-            }
-            else
-            {
-                iForm.GetRightPanel().ListBoxClearSelected();
 
-            }
-        }
         private void MinTCPanel1_ListBox_ItemDoubleClick(MinTCPanel obj)
         {
             string file = System.IO.Path.Combine(obj.CurentPath, obj.SelectedItem());
@@ -166,7 +155,7 @@ namespace lab_04_B
         }
         private void Form_ButtonDelateClick(Object obj)
         {
-            MinTCPanel activePanel = this.getActivePanel();
+            MinTCPanel activePanel = iForm.getActivePanel();
             if (activePanel != null)
             {
                 string name = activePanel.SelectedItem();
@@ -178,52 +167,39 @@ namespace lab_04_B
 
         private void Form_ButtonCoppy(Object obj)
         {
-            if (getActivePanel() != null)
-            {            
-                string fromPath = getActivePanel().CurentPath;
-                string toPath = getInActivePanel().CurentPath;
-                string name = getActivePanel().SelectedItem();
+            if (iForm.getActivePanel() != null)
+            {
+                string fromPath = iForm.getActivePanel().CurentPath;
+                string toPath = iForm.getInActivePanel().CurentPath;
+                string name = iForm.getActivePanel().SelectedItem();
                 if (model.canCoppy(System.IO.Path.Combine(fromPath, name), System.IO.Path.Combine(toPath, name)))
                 {
                     coppy(System.IO.Path.Combine(fromPath, name), System.IO.Path.Combine(toPath, name));
-                    getInActivePanel().List = reloadList(getInActivePanel().CurentPath);
+                    iForm.getInActivePanel().List = reloadList(iForm.getInActivePanel().CurentPath);
+                }
+                else
+                {
+                    model.errorMesage("Nie możne tego tutaj skopiować");
                 }
             }
 
         }
-        //czy to powinno byc tutaj czy w Formie
-        private MinTCPanel getActivePanel()
-        {
-            string left = iForm.GetLeftPanel().SelectedItem();
-            string right = iForm.GetRightPanel().SelectedItem();
 
-            if (left == null && right == null) return null;
-            if (left != null && right != null) return null;
-            if (left != null) return iForm.GetLeftPanel();
-            return iForm.GetRightPanel();
-
-        }
-        private MinTCPanel getInActivePanel()
-        {
-            string left = iForm.GetLeftPanel().SelectedItem();
-            string right = iForm.GetRightPanel().SelectedItem();
-
-            if (left == null && right == null) return null;
-            if (left != null && right != null) return null;
-            if (left == null) return iForm.GetLeftPanel();
-            return iForm.GetRightPanel();
-        }
         private void Form_ButtonMove(Object obj)
         {
-            string fromPath = getActivePanel().CurentPath;
-            string toPath = getInActivePanel().CurentPath;
-            string name = getActivePanel().SelectedItem();
+            string fromPath = iForm.getActivePanel().CurentPath;
+            string toPath = iForm.getInActivePanel().CurentPath;
+            string name = iForm.getActivePanel().SelectedItem();
 
-            if(coppy(System.IO.Path.Combine(fromPath, name), System.IO.Path.Combine(toPath, name)))
+            if (coppy(System.IO.Path.Combine(fromPath, name), System.IO.Path.Combine(toPath, name)))
+            {
                 delete(System.IO.Path.Combine(fromPath, name));
-
-            getInActivePanel().List = reloadList(getInActivePanel().CurentPath);
-            getActivePanel().List = reloadList(getActivePanel().CurentPath);
+            }
+            else {
+                model.errorMesage("Błąd podczas kopiowania");
+            }
+            iForm.getInActivePanel().List = reloadList(iForm.getInActivePanel().CurentPath);
+            iForm.getActivePanel().List = reloadList(iForm.getActivePanel().CurentPath);
 
         }
         private bool coppy(string from, string to)

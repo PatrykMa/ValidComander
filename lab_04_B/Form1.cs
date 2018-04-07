@@ -23,7 +23,8 @@ namespace lab_04_B
         {  
           
             InitializeComponent();
-
+            GetLeftPanel().ListBox_ItemClick += MinTCPanel1_ListBox_ItemClick;
+            GetRightPanel().ListBox_ItemClick += MinTCPanel1_ListBox_ItemClick;
             //minTCPanel_Left.comboBox_DiscDropDown += MinTCPanel1_LoadDrivers;
             // minTCPanel1.CurrentPath=@"c:\";
 
@@ -53,6 +54,41 @@ namespace lab_04_B
         {
             if (DeleteButtonClick != null)
                 DeleteButtonClick(this);
+        }
+
+        private void MinTCPanel1_ListBox_ItemClick(MinTCPanel obj)
+        {
+            if (!Object.ReferenceEquals(obj, GetLeftPanel()))
+            {
+               GetLeftPanel().ListBoxClearSelected();
+            }
+            else
+            {
+                GetRightPanel().ListBoxClearSelected();
+
+            }
+        }
+        public MinTCPanel getActivePanel()
+        {
+            string left = GetLeftPanel().SelectedItem();
+            string right = GetRightPanel().SelectedItem();
+
+            if (left == null && right == null) return null;
+            if (left != null && right != null) return null;
+            if (left != null) return GetLeftPanel();
+            return GetRightPanel();
+        }
+        //czy to powinno byc tutaj czy w Formie
+
+        public MinTCPanel getInActivePanel()
+        {
+            string left = GetLeftPanel().SelectedItem();
+            string right = GetRightPanel().SelectedItem();
+
+            if (left == null && right == null) return null;
+            if (left != null && right != null) return null;
+            if (left == null) return GetLeftPanel();
+            return GetRightPanel();
         }
 
     }

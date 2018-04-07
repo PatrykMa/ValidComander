@@ -12,8 +12,11 @@ namespace lab_04_B
         event Action<Object> DeleteButtonClick;
         event Action<Object> MoveButtonClick;
 
+        //ToDO zmienić na interface
         MinTCPanel GetLeftPanel();
         MinTCPanel GetRightPanel();
+        MinTCPanel getActivePanel();
+        MinTCPanel getInActivePanel();
         
 
     }

@@ -48,3 +48,6 @@ F:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.Form1.resources
 F:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.MinTCPanel.resources
 F:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.Properties.Resources.resources
 F:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.csproj.GenerateResource.Cache
+I:\programowanie\InValidComander\lab_04_B\bin\Debug\lab_04_B.exe.config
+I:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.exe
+I:\programowanie\InValidComander\lab_04_B\obj\Debug\lab_04_B.pdb
